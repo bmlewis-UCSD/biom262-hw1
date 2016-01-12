@@ -76,3 +76,7 @@ awk -v seed=908 'BEGIN{srand(seed);}{print $0}' gencode.v19.annotation.chr22.tra
 echo '--- Last 10 lines ---'
 tail gencode.v19.annotation.chr22.transcript.promoter.nfkb.fasta
 # End Excercise 5
+
+
+#Message to standard output
+echo "Hello I am a message in standard out (stdout)"
