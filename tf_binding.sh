@@ -4,12 +4,12 @@
 #PBS -l nodes=1:ppn=3
 #PBS -l walltime=0:10:00
 #PBS -o tf_binding_out.o
-#PBS -e tf_binding__error.e
+#PBS -e tf_binding_error.e
 #PBS -V
 #PBS -M t2shaw@ucsd.edu
 #PBS -m abe
 
-cd ~/code/biom262-2016/weeks/week01/data
+cd ~/code/biom262-hw1
 
 # Exercise 1 -Tim
 grep "NFKB" tf.bed > tf.nfkb.bed
@@ -80,3 +80,4 @@ tail gencode.v19.annotation.chr22.transcript.promoter.nfkb.fasta
 
 #Message to standard output
 echo "Hello I am a message in standard out (stdout)"
+echo "Hello I am a message in standard error (stderr)" >&2
