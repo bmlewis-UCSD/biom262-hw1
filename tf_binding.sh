@@ -80,4 +80,4 @@ tail gencode.v19.annotation.chr22.transcript.promoter.nfkb.fasta
 
 #Message to standard output
 echo "Hello I am a message in standard out (stdout)"
-echo "Hello I am a message in standard error (stderr) by ben" >&2
+echo "Hello I am a message in standard error (stderr)" >&2
