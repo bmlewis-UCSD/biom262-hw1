@@ -1,4 +1,4 @@
-#!/bin/csh
+#!/bin/bash
 #PBS -q hotel
 #PBS -N tf_binding
 #PBS -l nodes=1:ppn=3
